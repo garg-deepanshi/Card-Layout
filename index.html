@@ -3,35 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practical 6</title>
+     
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <style>
         .box{
             height:auto;
-            width: 20px;
+            width: 350px;
             background-color:white;
             float:left;
             padding:10px;
             margin:10px;
+           border-radius: 15px 15px 15px 15px;
+        }
+        .default{
+             background-color:red;
+             width: 320px;
+             
+        }
+        .btn:hover{
+             background-color:blue;
         }
     </style>
 </head>
 <body style="background-color:lightgrey;">
-  <h2>PRACTICAL-6:Create a Card Layout using CSS layout properties. </h2>  
-  <div class="box">
-    <div style="margin:2px;">
-        <img src="htmlimg.jpg" style=" width:16px; height:10px;">
+    <h2 style="color: white; margin-left:30px;">PRACTICAL-6: Create a Card Layout using CSS layout properties. </h2> <br><br> 
+<center>
+  <div class="box" style="margin-left:35px;" >
+      <center>
+    <div style="margin:3px 3px 3px 3px;">
+        <img src="htmlimg.jpg" style=" width:300px; height:230px; border-radius: 20px 20px 20px 20px; margin:3px 3px 3px 3px;">
     </div>
     <div style="margin:2px;">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam, explicabo, vitae nisi necessitatibus odit recusandae modi eius, quod rem maxime! Vel dolores sed ratione excepturi dolorum saepe mollitia corporis.
-    </div>
+        <b>Introduction to HTML</b><br>
+        HTML. First developed by Tim Berners-Lee in 1990, HTML is short for Hypertext Markup Language. 
+        HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web.
+      </div>
     <div style="margin:2px;">
-    <button type="button" class="primeary">Read More</button>
+        <a href="HTML5.html"><button type="button" class="btn btn-danger" style="width:300px; border-radius: 10px 10px 10px 10px;">Read More</button></a>
     </div>
+          </center>
   </div>
-  <div class="box">
-    <div>
-        Hello2
+ <div class="box">
+      <center>
+    <div style="margin:3px 3px 3px 3px;">
+        <img src="cssimg.png" style=" width:300px; height:230px; border-radius: 15px 15px 15px 15px; margin:3px 3px 3px 3px;">
     </div>
+    <div style="margin:2px;">
+         <b>Introduction to CSS</b><br>
+         CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on
+          screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+        </div>
+    <div style="margin:2px;">
+        <a href="CSS.html"> <button type="button" class="btn btn-danger" style="width:300px; border-radius: 10px 10px 10px 10px;" >Read More</button></a>
+    </div>
+          </center>
   </div>
+<div class="box">
+      <center>
+    <div style="margin:3px 3px 3px 3px;">
+        <img src="jsimg.png" style=" width:300px; height:230px; border-radius: 15px 15px 15px 15px; margin:3px 3px 3px 3px;">
+    </div>
+    <div style="margin:2px;">
+         <b>Introduction to JavaScript</b><br>
+         JavaScript is a text-based programming language used both on the client-side and server-side 
+         that allows you to make web pages interactive.Where HTML and CSS are languages that give structure and style to web pages,
+        </div>
+    <div style="margin:2px;">
+        <a href="JS.html"> <button type="button" class="btn btn-danger" style="width:300px; border-radius: 10px 10px 10px 10px;">Read More</button></a>
+    </div>
+          </center>
+  </div>
+    <div class="box">
+      <center>
+    <div style="margin:3px 3px 3px 3px;">
+        <img src="bootstrapimg.jpg" style=" width:300px; height:230px; border-radius: 15px 15px 15px 15px; margin:3px 3px 3px 3px;">
+    </div>
+    <div style="margin:2px;">
+         <b>Introduction to Bootstrap</b><br>
+         Bootstrap is a framework to help you design websites faster and easier.
+          It includes HTML and CSS based design templates for typography, forms, buttons, carousels, etc. ...       
+        </div>
+    <div style="margin:2px;">
+        <a href="Bootstrap.html"> <button type="button" class="btn btn-danger" style="width:300px; border-radius: 10px 10px 10px 10px;">Read More</button></a>
+    </div>
+          </center>
+  </div>
+    </center>
 </body>
 </html>
